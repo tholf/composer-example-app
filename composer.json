@@ -1,0 +1,25 @@
+{
+    "name": "surfalot/greetings",
+    "description": "This is a basic example project to get familiar with composer.",
+    "type": "project",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Todd Holforty",
+            "email": "tholforty@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "phpunit/php-timer": "^2.0@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    },
+    "scripts": {
+      "test": ["php tests/test.php", "echo Hello You"]
+    }
+}
